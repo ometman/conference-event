@@ -32,10 +32,10 @@ mShowLessSpkrs.addEventListener('click', (e) => {
 
 
 /* mobile menu ids */
-const mobileMenu = document.getElementById('main-mobile-menu');
+const mobileMenu = document.getElementsById('main-mobile-menu');
 const mobileMenuClose = document.getElementById('mobile-menu-nav-toggle');
 const mobileMenuOpen = document.getElementById('mobile-menu-nav');
-const mobileLink = document.getElementById('mob-link1');
+const mobileLink1 = document.getElementById('mob-link1');
 const mobileLink2 = document.getElementById('mob-link2');
 const mobileLink3 = document.getElementById('mob-link3');
 

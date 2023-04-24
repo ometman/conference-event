@@ -47,15 +47,26 @@ body {
   padding: 1rem;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.hm-header-bg {
   background: url("../images/mob-header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
+}
+
+.abt-page-bg {
+  background: url("../images/mob-abt-header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
 }
 
 a:link {
