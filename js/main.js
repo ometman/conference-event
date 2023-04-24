@@ -1,12 +1,29 @@
+/* mobile menu elements for open and close */
+const mobileMenu = document.querySelector('#main-mobile-menu');
+const mobileMenuOpen = document.querySelector('#mobile-menu-nav');
+const mobileMenuClose = document.querySelectorAll('.mobile-menu-nav-toggle, .close-menu');
+const blurEl = document.querySelectorAll('.blur');
+// // Event for mobile menu opening
+mobileMenu.addEventListener('click', () => {
+  mobileMenuOpen.style.display = 'block';
+  blurEl.forEach((el) => el.classList.add('blur-bg'));
+});
+
+// Event for mobile menu closing
+mobileMenuClose.forEach((link) => link.addEventListener('click', () => {
+  mobileMenuOpen.style.display = 'none';
+  blurEl.forEach((el) => el.classList.remove('blur-bg'));
+}));
+
 // See more and see less speaker view
 
-const mShowMoreSpkrs = document.getElementById('more-spkrs');
-const mShowLessSpkrs = document.getElementById('less-spkrs');
+const mShowMoreSpkrs = document.querySelector('#more-spkrs');
+const mShowLessSpkrs = document.querySelector('#less-spkrs');
 
-const mHideShowSpkrs3 = document.getElementById('third-spkr');
-const mHideShowSpkrs4 = document.getElementById('fourth-spkr');
-const mHideShowSpkrs5 = document.getElementById('fifth-spkr');
-const mHideShowSpkrs6 = document.getElementById('sixth-spkr');
+const mHideShowSpkrs3 = document.querySelector('#third-spkr');
+const mHideShowSpkrs4 = document.querySelector('#fourth-spkr');
+const mHideShowSpkrs5 = document.querySelector('#fifth-spkr');
+const mHideShowSpkrs6 = document.querySelector('#sixth-spkr');
 
 mShowMoreSpkrs.addEventListener('click', (e) => {
   mHideShowSpkrs3.style.display = 'flex';
@@ -28,34 +45,4 @@ mShowLessSpkrs.addEventListener('click', (e) => {
   mShowMoreSpkrs.style.display = 'flex';
   mShowLessSpkrs.style.display = 'none';
   e.preventDefault();
-});
-
-/* mobile menu ids */
-const mobileMenu = document.getElementsById('main-mobile-menu');
-const mobileMenuClose = document.getElementById('mobile-menu-nav-toggle');
-const mobileMenuOpen = document.getElementById('mobile-menu-nav');
-const mobileLink1 = document.getElementById('mob-link1');
-const mobileLink2 = document.getElementById('mob-link2');
-const mobileLink3 = document.getElementById('mob-link3');
-
-// Event for mobile menu opening
-mobileMenu.addEventListener('click', () => {
-  mobileMenuOpen.style.display = 'block';
-});
-
-// Event for mobile menu closing
-mobileMenuClose.addEventListener('click', () => {
-  mobileMenuOpen.style.display = 'none';
-});
-
-mobileLink1.addEventListener('click', () => {
-  mobileMenuOpen.style.display = 'none';
-});
-
-mobileLink2.addEventListener('click', () => {
-  mobileMenuOpen.style.display = 'none';
-});
-
-mobileLink3.addEventListener('click', () => {
-  mobileMenuOpen.style.display = 'none';
 });

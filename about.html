@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header abt-page-bg">
-      <div class="top-menu">
+      <div class="top-menu blur">
         <ul class="connect">
             <li class="s-icon1"><a href="#!"><i class="fa-brands fa-facebook"></i></a></li>
             <li class="s-icon2"><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
@@ -26,32 +26,30 @@
    <!--mobile nav-->
    <nav class="primary-nav">
     <!-- logo-->
-    <a href="./index.html" class="logo-container"> 
-       <!--logo image-->
-       <img id="logo" src="./images/cc-logo.png" alt="The CC logo">
-    </a> <!--logo ends-->
-    <!--mobile nav - hamburger-->
-    <a href="#" id="main-mobile-menu" class="hamburger-wrapper">
+      <a href="./index.html" class="logo-container blur"> 
+        <!--logo image-->
+        <img id="logo" src="./images/cc-logo.png" alt="The CC logo">
+      </a> <!--logo ends-->
+      <!--mobile nav - hamburger-->
+      <a href="#" id="main-mobile-menu" class="hamburger-wrapper blur">
         <img src="./images/mobile-menu.png" alt="Mobile menu icon">
-    </a>
-    <!--mobile menu items -->
-    <input type="checkbox" class="mobile-menu-nav-toggle" id="mobile-menu-nav-toggle">
-    <nav id="mobile-menu-nav" class="mobile-menu-nav">
-        <ul class="mobile-menu">
-            <li><a id="about" href="./about.html">About</a></li>
-            <li><a id="program" href="#">Program</a></li>
-            <li><a id="join" href="#">Join</a></li>
-            <li><a id="news" href="#">News</a></li>
-            <li><a id="mcampaign" href="#">CC Campaign</a></li>
-          <label for="mobile-menu-nav-toggle" class="mobile-menu-nav-toggle-label">
-            <span>x</span>
-          </label>
-        </ul>
-       
-    </nav>
-    
+      </a>
+      <!--mobile menu items -->
+      <input type="checkbox" class="mobile-menu-nav-toggle" id="mobile-menu-nav-toggle">
+      <nav id="mobile-menu-nav" class="mobile-menu-nav">
+          <ul class="mobile-menu">
+              <li><a id="about" class="close-menu" href="./about.html">About</a></li>
+              <li><a id="program"  class="close-menu" href="./index.html">Program</a></li>
+              <li><a id="join"  class="close-menu" href="./index.html">Join</a></li>
+              <li><a id="news" class="close-menu" href="./index.html">News</a></li>
+              <li><a id="mcampaign" class="close-menu" href="./index.html">CC Campaign</a></li>
+            <label for="mobile-menu-nav-toggle" class="mobile-menu-nav-toggle-label">
+              <span>x</span>
+            </label>
+          </ul>
+      </nav>
         <!--desktop menu-->
-        <ul class="desk-menu">
+      <ul class="desk-menu">
           <li><a href="./about.html">About</a></li>
           <li><a href="#">Program</a></li>
           <li><a href="#">Join</a></li>
@@ -59,11 +57,11 @@
           <li class="campaign-link"><a href="#">CC Campaign</a></li>
       </ul>
     </nav> <!--header ends-->
-        <script src="./js-script/mobile-menu.js"></script>
+        <!-- <script src="./js-script/mobile-menu.js"></script> -->
       <!--headline begins-->
-      <div class="headline about-headline">
+      <div class="headline about-headline blur">
         <p class="headline-greeting">"Hello! Changing the world"</p>
-        <h1 class="headline-title">
+        <h1 class="headline-title abt-h1-title">
           Techno Developers <br />
           World Summit 2015
         </h1>
@@ -83,7 +81,7 @@
     </header>
     <!--header ends-->
     <!--about list-->
-    <section class="abt-main-section">
+    <section class="abt-main-section blur">
       <!--order 0-->
       <div class="abt-logo">
         <h2 class="abt-logo-heading">
@@ -108,7 +106,7 @@
     </section>
 
     <!--past conference -->
-    <section class="abt-past-confs">
+    <section class="abt-past-confs blur">
         <!--order 0-->
             <h2 class="abt-confs-heading">
                 See the past CC Global Summits
@@ -166,7 +164,7 @@
 
     </section>
     <!--partners section-->
-    <section id="abt-conf-partners" class="partners-section">
+    <section id="abt-conf-partners" class="partners-section blur">
       <div class="section-heading dark-bg">
           <h2 class="section-head">
               Partners
@@ -181,7 +179,7 @@
           <img src="./images/airbnb logo.png" alt="Airbnb logo" class="airbnb">
       </div>
   </section>
-    <footer class="footer">
+    <footer class="footer blur">
         <div class="footer-left">
             <img src="./images/footer-logo.png" alt="Creative commons logo" class="footer-cc-logo">
         </div>
@@ -192,6 +190,6 @@
             </p>
         </div>
     </footer>
-    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -145,7 +145,7 @@ ul {
   left: 0;
   right: 0;
   padding: 106px 0 0 0;
-  background: #d3d3d3;
+  background: rgba(211, 211, 211, 0.837);
   list-style-type: none;
   z-index: 999;
 }
@@ -153,7 +153,7 @@ ul {
 .mobile-menu-nav ul li {
   padding: 0;
   margin-left: 1.75rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .mobile-menu-nav-toggle:checked ~ .nav {
@@ -170,7 +170,10 @@ ul {
   align-items: center;
   justify-content: center;
   color: #272a31;
-  border: 2px solid #67798e;
+  border: 1px solid #67798e;
+  padding: 0 3px 6px 3px;
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
 /* hide these elements for js call */
@@ -195,6 +198,11 @@ ul {
   color: #ec5242;
 }
 
+.blur-bg {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+}
+
 #mcampaign {
   border: 2px solid #ec5242;
   border-width: 3px;
@@ -213,7 +221,6 @@ ul {
   justify-content: center;
   gap: 1rem;
   font-family: "Lato", sans-serif;
-  color: #172b4d;
   order: 0;
 }
 
@@ -240,9 +247,21 @@ ul {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
+  color: #ec5242;
+}
+
+.hm-h1-title-color {
+-webkit-text-fill-color: transparent;
+background: linear-gradient(to top right, #ec5242 40% 10%, #272a31 60% 40%, #ec5242 70%);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.abt-h1-title {
+  text-align: center;
 }
 
 .headline-intro,
@@ -416,7 +435,8 @@ h2.abt-confs-heading {
 }
 
 .abt-headline-intro {
-  margin: 4.5rem auto 2rem auto;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
 }
 
 .abt-logo-info {
