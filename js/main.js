@@ -3,6 +3,7 @@ const mobileMenu = document.querySelector('#main-mobile-menu');
 const mobileMenuOpen = document.querySelector('#mobile-menu-nav');
 const mobileMenuClose = document.querySelectorAll('.mobile-menu-nav-toggle, .close-menu');
 const blurEl = document.querySelectorAll('.blur');
+
 // // Event for mobile menu opening
 mobileMenu.addEventListener('click', () => {
   mobileMenuOpen.style.display = 'block';
