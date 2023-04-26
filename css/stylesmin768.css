@@ -794,11 +794,11 @@
     }
   }
 
-  @media screen and (max-width: 820px) {
+  /* @media screen and (max-width: 820px) {
     .header {
       height: 80vh;
     }
-  }
+  } */
 
   @media screen and (min-width: 768px) {
     .spkrs-list-view,
