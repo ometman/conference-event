@@ -4,7 +4,8 @@
     font-size: 16px;
   }
 
-  .header, .abt-page-bg {
+  .header,
+  .abt-page-bg {
     background: url("../images/desk-bg-scaled.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +70,7 @@
     font-family: "Lato", sans-serif;
     order: 0;
   }
-  
+
   .abt-headline {
     margin-top: 13rem;
     gap: 2.4rem;
@@ -108,12 +109,6 @@
     border: 5px solid #fff;
     text-align: left;
     order: 2;
-  }
-
-  .abt-intro {
-    margin: 3.5rem auto 2.5rem auto;
-    font-size: ;
-    width: 60%;
   }
 
   .desk-intro-position {
@@ -163,9 +158,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-  }
-
-  .program-section {
     background-color: #272a31;
     background-image: url("../images/bg-mat.png");
     background-repeat: repeat;
@@ -243,7 +235,7 @@
 
   .whole-program-link-text > a:link {
     text-decoration: underline;
-    text-underline-position: below;
+    text-underline-position: under;
     color: #fff;
   }
 
@@ -403,7 +395,7 @@
     width: 60%;
     height: 60%;
     margin: 0 auto;
-    padding: auto;
+    padding: 0;
     border: 1px;
   }
 
@@ -472,7 +464,7 @@
   }
 
   .confs-display {
-    max-width: auto;
+    width: auto;
     background-color: rgba(236, 83, 66, 0.807);
   }
 
@@ -491,8 +483,6 @@
 
   .partners-section {
     position: relative;
-    height: 0;
-    width: 0;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -528,7 +518,7 @@
     gap: 2.5rem;
   }
 
-   h2.section-head {
+  h2.section-head {
     font-size: 2.2rem;
     line-height: 2.5rem;
   }
@@ -545,20 +535,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    order: 0;
+    width: 40%;
   }
 
   .footer-right {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-  }
-
-  .footer-left {
-    order: 0;
-    width: 40%;
-  }
-
-  .footer-right {
     order: 1;
     width: 60%;
   }
@@ -594,7 +578,6 @@
   @media screen and (min-width: 768px) {
     .prog-registration-button,
     .spkrs-list-view,
-    #mobile-menu,
     #mobile-menu,
     #mobile-menu-nav-toggle,
     #mobile-menu-nav {

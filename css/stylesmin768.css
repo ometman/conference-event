@@ -26,7 +26,12 @@
     list-style-type: none;
   }
 
-  .header, .abt-page-bg {
+  a:link {
+    text-decoration: none;
+  }
+
+  .header,
+  .abt-page-bg {
     position: relative;
     width: auto;
     background: url("../images/desk-bg-scaled.png");
@@ -70,17 +75,38 @@
     font-family: "Lato", sans-serif;
   }
 
-  .desk-menu li a {
+  .whole-program-link-text > a {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #fff;
+  }
+
+  .desk-menu li > a {
     color: #272a31;
   }
 
-  .desk-menu li a:link {
-    color: #272a31;
-  }
-
-  .desk-menu li a:hover,
-  .desk-menu li a:active {
-    color: #ec5242;
+  .whole-program-link {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 3;
   }
 
   ul.connect {
@@ -110,6 +136,25 @@
     color: #fff;
   }
 
+  .whole-program-link-text > a:hover {
+    color: #ec5242;
+  }
+
+  .whole-program-link-text > a:link {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #fff;
+  }
+
+  .desk-menu li a:hover,
+  .desk-menu li a:active {
+    color: #ec5242;
+  }
+
+  .desk-menu li a:link {
+    color: #272a31;
+  }
+
   ul.connect li a:link {
     color: #fff;
   }
@@ -126,16 +171,11 @@
     justify-content: space-between;
   }
 
-  a:link {
-    text-decoration: none;
-  }
-
   .logo-container {
     position: relative;
     width: auto;
     height: auto;
     margin: auto auto auto 8vw;
-    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -240,9 +280,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-  }
-
-  .program-section {
     background-color: #272a31;
     background-image: url("../images/bg-mat.png");
     background-repeat: repeat;
@@ -288,49 +325,11 @@
     text-align: center;
   }
 
-  .whole-program-link {
-    position: relative;
-    width: auto;
-    height: auto;
-    padding: 1%;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    order: 3;
-  }
-
-  .whole-program-link-text > a {
-    position: relative;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Lato", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: #fff;
-  }
-
-  .whole-program-link-text > a:link {
-    text-decoration: underline;
-    text-underline-position: below;
-    color: #fff;
-  }
-
-  .whole-program-link-text > a:hover {
-    color: #ec5242;
-  }
-
   .speakers-section {
     height: auto;
     padding: 2rem 2.5rem;
+    background: #fff;
+    border: none;
   }
 
   /* change speakers section structure */
@@ -382,12 +381,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 0rem;
-  }
-
-  .speakers-section {
-    background: #fff;
-    border: none;
+    gap: 0;
   }
 
   .speakers-heading {
@@ -463,10 +457,6 @@
 
   .spkr-position {
     color: #ec5242;
-  }
-
-  .spkr-bkgd {
-    color: #272a31;
   }
 
   .abt-past-confs {
@@ -556,7 +546,7 @@
     width: 60%;
     height: 60%;
     margin: 0 auto;
-    padding: auto;
+    padding: 0;
     border: 1px;
   }
 
@@ -625,7 +615,7 @@
   }
 
   .confs-display {
-    max-width: auto;
+    width: auto;
     background-color: rgba(236, 83, 66, 0.807);
   }
 
@@ -683,20 +673,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    order: 0;
+    width: 40%;
   }
 
   .footer-right {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-  }
-
-  .footer-left {
-    order: 0;
-    width: 40%;
-  }
-
-  .footer-right {
     order: 1;
     width: 60%;
   }
@@ -814,7 +798,6 @@
     .header {
       height: 80vh;
     }
-    
   }
 
   @media screen and (min-width: 768px) {
