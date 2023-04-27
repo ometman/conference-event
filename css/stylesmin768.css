@@ -32,15 +32,23 @@
   }
 
   .header,
+  .main-bg,
   .abt-page-bg {
     position: relative;
     width: auto;
-    background: url("../images/desk-bg-scaled.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 0;
     margin: 0;
+  }
+
+  .main-bg {
+    background-image: url("../images/desk-bg-index.png");
+  }
+
+  .abt-page-bg {
+    background-image: url("../images/desk-bg-about.png");
   }
 
   .top-menu {
@@ -446,7 +454,6 @@
   }
 
   .abt-headline-intro {
-    margin: 3.5rem auto 2.5rem auto;
     width: 70%;
   }
 

@@ -6,9 +6,9 @@
 
   .header,
   .abt-page-bg {
-    background: url("../images/desk-bg-scaled.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
   }
 
   .top-menu {
@@ -33,7 +33,7 @@
   }
 
   ul.connect li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.3rem;
   }
@@ -71,8 +71,8 @@
   }
 
   .abt-headline {
-    margin-top: 13rem;
-    gap: 2.4rem;
+    margin-top: 9rem;
+    gap: 2rem;
   }
 
   /* modify home headline for about page */
@@ -570,9 +570,9 @@
 }
 
 @media screen and (min-width: 912px) and (max-width: 1440px) {
-  header {
+  /* header {
     height: 100vh;
-  }
+  } */
 
   .primary-nav {
     width: 100%;
@@ -589,8 +589,4 @@
   .featured-speakers {
     height: 70rem;
   }
-
-  /* .header {
-    height: 100vh;
-  } */
 }
