@@ -515,7 +515,7 @@
     padding: 2rem;
     height: 10%;
     gap: 0.5rem;
-    background: #fff;
+    background: #272a31;
   }
 
   .footer-left {
@@ -543,7 +543,7 @@
   }
 
   .footer-info {
-    color: #272a31;
+    color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -563,10 +563,7 @@
   }
 }
 
-@media screen and (min-width: 912px) and (max-width: 1440px) {
-  /* header {
-    height: 100vh;
-  } */
+@media screen and (min-width: 912px) {
 
   .primary-nav {
     width: 100%;

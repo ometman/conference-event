@@ -231,7 +231,7 @@ Generally, credit goes host site <a href="https://unsplash.com/photos/-uHVRvDr7p
 
 ## 📝 License <a name="license"></a>
 
-This project is MIT licensed. Read the <a href="https://github.com/ometman/first-capstone/blob/main/MIT%20License">LICENSE</a>.
+This project is MIT licensed. Read the <a href="https://github.com/ometman/first-capstone/blob/d71316f1166ea237de068c172e0f484ef3a5e8a8/MIT%20License">LICENSE</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

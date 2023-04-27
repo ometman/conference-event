@@ -69,6 +69,22 @@ body {
   overflow: hidden;
 }
 
+.abt-contact-link {
+  color: #272a31;
+  text-decoration: underline !important;
+  text-decoration-style: solid;
+  text-underline-position: under !important;
+  text-decoration-color: #272a31;
+} 
+
+.link-dxn {
+  width: 10%;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
 a:link {
   text-decoration: none;
   color: inherit;
@@ -328,13 +344,16 @@ nav.ul li > a:active {
   margin: 0;
   padding: 0;
   order: 4;
-  order: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .abt-headline-contact-info {
   text-align: center;
   order: 4;
-  order: 3;
 }
 
 .program-section,
@@ -1027,12 +1046,18 @@ footer {
   padding: 0;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) {
   .top-menu,
   .desk-menu,
   .whole-program-link,
   .logo-container,
   .break-intro {
     display: none;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  header {
+  height: 70vh;
   }
 }
