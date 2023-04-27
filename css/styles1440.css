@@ -33,7 +33,7 @@
   }
 
   ul.connect li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.3rem;
   }
@@ -59,7 +59,7 @@
     position: relative;
     height: auto;
     width: auto;
-    margin: -3rem auto auto 13vw;
+    margin: -5rem auto auto 13vw;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -71,8 +71,8 @@
   }
 
   .abt-headline {
-    margin-top: 9rem;
-    gap: 2rem;
+    margin-top: 5rem;
+    gap: 1.5rem;
   }
 
   /* modify home headline for about page */
