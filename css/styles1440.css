@@ -558,36 +558,6 @@
     padding: 0;
   }
 
-  @media screen and (min-width: 912px) {
-    header {
-      width: auto;
-    }
-
-    .primary-nav {
-      width: 100%;
-    }
-  }
-
-  @media screen and (width: 1440px) {
-    .featured-speakers {
-      height: 80rem;
-    }
-
-    .header {
-      height: 80vh;
-    }
-  }
-
-  @media screen and (min-width: 1441px) {
-    .featured-speakers {
-      height: 70rem;
-    }
-
-    .header {
-      height: 100vh;
-    }
-  }
-
   @media screen and (min-width: 768px) {
     .prog-registration-button,
     .spkrs-list-view,
@@ -597,4 +567,30 @@
       display: none;
     }
   }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1440px) {
+  header {
+    height: 100vh;
+  }
+
+  .primary-nav {
+    width: 100%;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .featured-speakers {
+    height: 80rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .featured-speakers {
+    height: 70rem;
+  }
+
+  /* .header {
+    height: 100vh;
+  } */
 }

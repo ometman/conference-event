@@ -182,6 +182,15 @@ nav.ul li > a:active {
   color: #ec5242;
 }
 
+.fa-twitter::before {
+  content: "\f099";
+}
+
+.fa-facebook-f::before,
+.fa-facebook::before {
+  content: "\f09a";
+}
+
 .primary-nav {
   position: relative;
   width: auto;
@@ -399,7 +408,7 @@ hr {
 .prog-item {
   position: relative;
   height: auto;
-  width: auto;
+  width: 90%;
   margin: 0;
   padding: 0.5rem;
   display: flex;
@@ -1025,23 +1034,5 @@ footer {
   .logo-container,
   .break-intro {
     display: none;
-  }
-}
-
-@media screen and (min-width: 390px) {
-  .header {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 393px) {
-  .header {
-    height: 60vh;
-  }
-}
-
-@media screen and (min-width: 412px) and (min-width: 414px) {
-  .header {
-    height: 60vh;
   }
 }

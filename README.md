@@ -7,7 +7,7 @@
   <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b> Conference 2023 (First Captsone Project): README </b></h3>
+  <h3><b> CC Conference 2023 (First Captsone Project): README </b></h3>
 
 </div>
 
@@ -19,7 +19,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Presentation and Live Demo](#presentation and live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -32,17 +32,17 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [🙏 Credits ](#credits)
+- [💰 Credits ](#credits)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 TECNO CONFERENCE 2023 - First Capstone Project <a name="about-project"></a>
+# 📖 CREATIVE COMMONS CONFERENCE 2023 - First Capstone Project <a name="about-project"></a>
 
 <!-- Project Description in 1 or 2 sentences -->
 
-**TECNO CONFERENCE 2023** is a website that gives information about an up-coming conference. It informs about the tile, logo, schedule, speakers, partners, registration process, and contact.
+**CREATIVE COMMONS CONFERENCE 2023** is a website that gives information about an up-coming conference. It informs about the tile, logo, schedule, speakers, partners, registration process, and contact.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,7 +54,7 @@ Based on Cindy Behance's design, coding work was done in html, css and javascrip
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://figman.com">Cindy's Design</a></li>
+    <li><a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shins' Design</a></li>
   </ul>
 </details>
 
@@ -89,13 +89,17 @@ Based on Cindy Behance's design, coding work was done in html, css and javascrip
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Presentation and Live Demo <a name="presentation and live-demo"></a>
 
+**Brief presentation video**:
+You can see a brief presentation on the project at the link below:
+--Presentation coming soon
+
+**Live demo**: 
 The project is deployed on github pages.
 You can see a live demo at the link below:
 
 <a href="https://ometman.github.io/first-capstone/">Live demo</a>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,10 +205,11 @@ If you like this project, do not hesitate to support by contacting me at the soc
 
 I would like to thank all full-time students of Microverse, the morning session teams, learning and coding partners, standup teams and all the student success and support staff. And, most of all, I would like to say thank you to the team at Microverse. They inspired this project.
 
-## 🙏 Credits <a name="credits"></a>
+## 💰 Credits <a name="credits"></a>
 I also would like to give credits to the following:
-Cindy Behance for the design and main images.
-General to <a href="https://unsplash.com/photos/-uHVRvDr7pg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> and specifically to <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Cagle</a> and <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a>  for the past conferences overlay.
+<a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin on Behance</a> for the design and main images.
+
+Generally, credit goes host site <a href="https://unsplash.com/photos/-uHVRvDr7pg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> and specifically to <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Cagle</a> and <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a>  for the past conferences overlay photos, 2013 and 2011 respectively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
