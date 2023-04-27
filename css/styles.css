@@ -247,7 +247,7 @@ nav.ul li > a:active {
   padding: 0;
   color: #ec5242;
   font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5rem;
   order: 0;
@@ -257,8 +257,8 @@ nav.ul li > a:active {
   position: relative;
   margin: 0 auto;
   width: 2.5rem;
-  height: 1px;
-  padding: 0;
+  height: auto;
+  padding: 0.5px;
   text-align: center;
   background-color: #ec5242;
   border: none;
@@ -267,6 +267,7 @@ nav.ul li > a:active {
 .headline-title {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -289,9 +290,9 @@ nav.ul li > a:active {
   width: 92%;
   margin: 1rem auto;
   font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   height: auto;
   padding: 0.8rem;
   background-color: #ecebeb;
@@ -302,9 +303,9 @@ nav.ul li > a:active {
 
 .headline-date {
   font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   margin: 0;
   padding: 0;
   order: 3;
@@ -312,7 +313,7 @@ nav.ul li > a:active {
 
 .headline-venue {
   font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.2rem;
   margin: 0;
@@ -323,12 +324,6 @@ nav.ul li > a:active {
 
 .abt-headline-contact-info {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-  margin: 0;
-  padding: 0;
   order: 4;
   order: 3;
 }
@@ -358,9 +353,9 @@ nav.ul li > a:active {
 h2.section-head {
   text-align: center;
   font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
   order: 0;
   margin-top: 0.5rem;
 }
@@ -374,10 +369,10 @@ hr {
 }
 
 .section-heading-hr {
-  width: 2.5rem;
-  height: 1px;
+  width: 2.2rem;
+  height: auto;
   margin: auto;
-  padding: 0;
+  padding: 0.5px;
   text-align: center;
   background-color: #ec5242;
   border: none;
@@ -431,9 +426,9 @@ h2.abt-confs-heading,
   color: #272a31;
   text-align: center;
   font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  line-height: 2rem;
+  line-height: 1.5rem;
   order: 0;
 }
 
@@ -508,6 +503,12 @@ h2.abt-confs-heading {
   position: relative;
 }
 
+.single-content {
+  position: relative;
+  transition: 0.3s;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
 .text-content {
   opacity: 0;
   z-index: 1;
@@ -517,30 +518,7 @@ h2.abt-confs-heading {
   text-align: center;
 }
 
-.text-content h4 {
-  font-family: "Lato", sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 2.5rem;
-  color: #fff;
-}
-
-.text-content p {
-  font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-  color: #fff;
-}
-
-.single-content {
-  position: relative;
-  transition: 0.3s;
-  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
-}
-
-.text-content,
-.single-content,
+.single-content .text-content,
 .single-content::after {
   position: absolute;
   left: 0;
@@ -580,111 +558,34 @@ h2.abt-confs-heading {
   margin-top: var(--bs-gutter-y);
 }
 
-.text-content .single-content:hover {
+.single-content img {
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.text-content h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #fff;
+}
+
+.text-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #fff;
+}
+
+.single-content:hover .text-content {
   opacity: 1;
   transform: translate(0, -150%);
 }
 
-.single-content img {
-  width: 100%;
-  margin: 0;
-  height: auto;
-}
-
-#2013-confs-display {
-  order: 3;
-  height: auto;
-  border: none;
-}
-
-#2011-confs-display {
-  order: 4;
-  height: auto;
-  border: none;
-}
-
-.abt-logo-img,
-.abt-confs-img {
-  position: relative;
-  width: 60%;
-  height: 60%;
-  margin: 0 auto;
-  padding: 0;
-  border: 1px;
-}
-
-.abt-confs-img {
-  width: 96%;
-  margin: auto;
-}
-
-.abt-confs-img-link1,
-.abt-confs-img-link2 {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: none;
-}
-
-.abt-confs-img-link2 {
-  margin-bottom: 1rem;
-}
-
-.abt-confs-2013-overlay {
-  position: relative;
-  background-color: rgba(236, 83, 66, 0.53);
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99;
-}
-
-#abt-confs-2013-overlay {
-  order: 5;
-  margin-top: -102%;
-  width: 90%;
-  height: 25%;
-}
-
-#abt-confs-2011-overlay {
-  order: 6;
-  margin-top: -20%;
-  width: 90%;
-  height: 25%;
-}
-
-.abt-conf-hover-year {
-  position: relative;
-  color: #fff;
-  margin: 1.5rem auto 0 auto;
-  font-family: "Lato", sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
-  line-height: 3rem;
-  order: 0;
-}
-
-.abt-conf-hover-info {
-  position: relative;
-  margin: 0 auto 1rem auto;
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.8rem;
-  color: #fff;
-}
-
-.confs-display {
-  width: auto;
-  background-color: rgba(236, 83, 66, 0.807);
-}
-
-.confs-display-bkgd {
-  background-color: rgba(236, 83, 66, 0.807);
-}
+/* hover style end */
 
 .section-heading {
   text-align: center;
@@ -693,7 +594,7 @@ h2.abt-confs-heading {
   font-weight: 400;
   line-height: 2rem;
   position: relative;
-  height: 4rem;
+  height: 2rem;
   color: #fff;
   order: 0;
   width: auto;
@@ -810,7 +711,7 @@ p.prog-reg-text {
   padding: 0;
   color: #fff;
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.4rem;
   text-align: center;
@@ -900,7 +801,7 @@ h3.spkr-name {
   padding: 0;
   text-align: left;
   font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.024rem;
   line-height: 1.4rem;
   font-weight: 400;
   color: #272a31;
@@ -933,7 +834,7 @@ h3.spkr-name {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1rem;
 }
@@ -1026,7 +927,7 @@ p.spkrs-see-less-text {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: auto;
+  height: 30%;
   background-color: #272a31;
 }
 
@@ -1046,7 +947,7 @@ p.spkrs-see-less-text {
   height: auto;
   margin: 0;
   background-color: #272a31;
-  padding: 0 1.5rem 1.5rem 2rem;
+  padding: 0 1.5rem 2.5rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1117,18 +1018,6 @@ footer {
   padding: 0;
 }
 
-@media screen and (width: 390px) {
-  .header {
-    height: 70vh;
-  }
-}
-
-@media screen and (min-width: 412px) and (min-width: 414px) {
-  .header {
-    height: 88vh;
-  }
-}
-
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .top-menu,
   .desk-menu,
@@ -1136,5 +1025,23 @@ footer {
   .logo-container,
   .break-intro {
     display: none;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .header {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 393px) {
+  .header {
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 412px) and (min-width: 414px) {
+  .header {
+    height: 60vh;
   }
 }
