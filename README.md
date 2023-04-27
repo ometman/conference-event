@@ -33,7 +33,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [🙏 Credits ](#credits)
+- [![37405797-e4faa380-2795-11e8-96b6-47f509b4ffda](https://user-images.githubusercontent.com/114116376/234738974-b5a40881-f3c6-4677-a363-178495884a26.png) Credits ](#credits)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
@@ -202,7 +202,8 @@ If you like this project, do not hesitate to support by contacting me at the soc
 
 I would like to thank all full-time students of Microverse, the morning session teams, learning and coding partners, standup teams and all the student success and support staff. And, most of all, I would like to say thank you to the team at Microverse. They inspired this project.
 
-## ![download](https://user-images.githubusercontent.com/114116376/234738665-83e0853d-8eb8-4385-ade3-065cc936ca45.png) Credits <a name="credits"></a>
+## ![37405797-e4faa380-2795-11e8-96b6-47f509b4ffda](https://user-images.githubusercontent.com/114116376/234738974-b5a40881-f3c6-4677-a363-178495884a26.png)
+Credits <a name="credits"></a>
 I also would like to give credits to the following:
 Cindy Behance for the design and main images.
 General to <a href="https://unsplash.com/photos/-uHVRvDr7pg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> and specifically to <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Cagle</a> and <a href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christina @ wocintechchat.com</a>  for the past conferences overlay.
