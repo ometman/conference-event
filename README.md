@@ -4,7 +4,6 @@
 
 <div align="center">
 
-  <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b> CC Conference 2023 (First Captsone Project): README </b></h3>
@@ -48,7 +47,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<!-- Describe the tech stack and include only the relevant sections that apply to your project.-->
+<!-- Description of the tech stack and include relevant sections -->
 Based on Cindy Behance's design, coding work was done in html, css and javascript using visual studio code. Linters tests were used to validate the codes. 
 
 <details>
@@ -64,14 +63,6 @@ Based on Cindy Behance's design, coding work was done in html, css and javascrip
     <li> Microverse Linters for CSS, HTML and Javascript</li>
   </ul>
 </details>
-
-<!--
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details> -->
 
 <!-- Features -->
 
@@ -116,14 +107,6 @@ In order to run this project you need:
 
 A PC, Google Chrome browser and Windows 10 OS.
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -166,8 +149,6 @@ Any web hosting service. Example: gcloud, aws etc
 - Twitter: [@twitterhandle](https://twitter.com/ometman)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ometman)
 
-<!-- Mention all of the collaborators of this project.-->
-<!-- ## 👥 Collaborators <a name="collaborators"></a> -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,8 +167,6 @@ Any web hosting service. Example: gcloud, aws etc
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, suggestions, issues, and feature requests are welcome!
-
-<!--Feel free to check the [issues page](../../issues/).-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +192,7 @@ Generally, credit goes host site <a href="https://unsplash.com/photos/-uHVRvDr7p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+<!-- FAQ section -->
 
 ## ❓ FAQ <a name="faq"></a>
 
