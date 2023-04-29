@@ -1,0 +1,528 @@
+/* Getting the required fonts and sizes */
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+
+  .header,
+  .abt-page-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .top-menu {
+    height: 2rem;
+  }
+
+  .desk-menu {
+    width: auto;
+    gap: 2.5rem;
+    height: 2rem;
+    right: 13vw;
+    top: 0;
+    padding: 0.625rem 0.7rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  ul.connect {
+    width: 20%;
+    margin: 0 12.5vw 0 0;
+  }
+
+  ul.connect li {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+  }
+
+  .primary-nav {
+    height: 5rem;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .logo-container {
+    margin: auto auto auto 13vw;
+  }
+
+  #logo {
+    width: 70%;
+    height: 35%;
+  }
+
+  .headline {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: -5rem auto auto 13vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Lato", sans-serif;
+    order: 0;
+  }
+
+  .abt-headline {
+    margin-top: 5rem;
+    gap: 1.5rem;
+  }
+
+  /* modify home headline for about page */
+
+  .headline-greeting {
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    order: 0;
+  }
+
+  .headline-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+  }
+
+  .headline-intro {
+    width: 60%;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    height: auto;
+    background-color: #ecebeb;
+    border: 5px solid #fff;
+    text-align: left;
+    order: 2;
+  }
+
+  .desk-intro-position {
+    margin-left: 0;
+  }
+
+  .headline-date {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    order: 3;
+  }
+
+  .headline-venue {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    order: 4;
+  }
+
+  .abt-main-section {
+    padding: 2.8rem;
+  }
+
+  .abt-headline-contact-info {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    order: 3;
+  }
+
+  .program-section {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #272a31;
+    background-image: url("../images/bg-mat.png");
+    background-repeat: repeat;
+    border: none;
+    height: 30rem;
+  }
+
+  /* dynamic content */
+
+  .section-details {
+    width: auto;
+    flex-direction: row;
+    gap: 1rem;
+    order: 1;
+  }
+
+  .prog-item {
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .prog-icon {
+    height: 100%;
+    width: 100%;
+  }
+
+  .prog-title-container {
+    width: auto;
+    padding: 0;
+    justify-content: center;
+  }
+
+  h3.prog-title {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .prog-description {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+
+  .whole-program-link {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+  }
+
+  .whole-program-link-text > a {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #fff;
+  }
+
+  .whole-program-link-text > a:link {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #fff;
+  }
+
+  .whole-program-link-text > a:hover {
+    color: #ec5242;
+  }
+
+  .featured-speakers {
+    height: 30rem;
+  }
+
+  .speakers-details {
+    width: 30%;
+    margin: 2rem auto;
+    gap: 3rem;
+  }
+
+  .speakers-section {
+    background: #fff;
+    border: none;
+  }
+
+  .speakers-heading {
+    color: #272a31;
+  }
+
+  .spkr-bkgd {
+    background: #fff;
+  }
+
+  .spkr-img {
+    position: relative;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .spkr-info {
+    position: relative;
+    padding: 0;
+    width: 80%;
+    height: 100%;
+    gap: 0.5rem;
+  }
+
+  h3.spkr-name {
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    color: #272a31;
+  }
+
+  .section-heading {
+    height: 8rem;
+  }
+
+  .spkr-position,
+  .spkr-bkgd {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .abt-past-confs {
+    padding: 0;
+  }
+
+  .abt-main-section,
+  .abt-past-confs {
+    background-color: #fff;
+    background-image: none;
+  }
+
+  h2.abt-logo-heading,
+  h2.abt-confs-heading,
+  .abt-partners-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    order: 0;
+  }
+
+  h2.abt-confs-heading {
+    margin: 0 auto;
+  }
+
+  .abt-logo-info {
+    order: 2;
+  }
+
+  .abt-logo-info,
+  .abt-confs-info {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    color: #272a31;
+  }
+
+  .abt-confs-info {
+    margin: 0 auto 1.2rem;
+    padding: 0;
+  }
+
+  .abt-logo-display {
+    order: 3;
+  }
+
+  .abt-logo-display,
+  .abt-confs-display {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 2rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+  }
+
+  #2013-confs-display {
+    order: 3;
+    height: auto;
+    border: none;
+  }
+
+  #2011-confs-display {
+    order: 4;
+    height: auto;
+    border: none;
+  }
+
+  .abt-logo-img,
+  .abt-confs-img {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px;
+  }
+
+  .abt-confs-img {
+    width: 96%;
+    margin: auto;
+  }
+
+  .abt-confs-img-link1,
+  .abt-confs-img-link2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .abt-confs-img-link2 {
+    margin-bottom: 1rem;
+  }
+
+  .abt-confs-2013-overlay {
+    position: relative;
+    background-color: rgba(236, 83, 66, 0.53);
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
+
+  #abt-confs-2013-overlay {
+    order: 5;
+    margin-top: -102%;
+    width: 90%;
+    height: 25%;
+  }
+
+  #abt-confs-2011-overlay {
+    order: 6;
+    margin-top: -20%;
+    width: 90%;
+    height: 25%;
+  }
+
+  .abt-conf-hover-year {
+    position: relative;
+    color: #fff;
+    margin: 1.5rem auto 0 auto;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 3rem;
+    order: 0;
+  }
+
+  .abt-conf-hover-info {
+    position: relative;
+    margin: 0 auto 1rem auto;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color: #fff;
+  }
+
+  .confs-display {
+    width: auto;
+    background-color: rgba(236, 83, 66, 0.807);
+  }
+
+  .confs-display-bkgd {
+    background-color: rgba(236, 83, 66, 0.807);
+  }
+
+  .abt-confs-partners {
+    position: relative;
+    background-color: #272a31;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .partners-section {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #272a31;
+  }
+
+  .abt-partners-heading {
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+
+  .google,
+  .mozilla,
+  .airbnb,
+  .daumkakao,
+  .naver {
+    position: relative;
+    width: 15%;
+    height: auto;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .partner-logos {
+    gap: 2.5rem;
+  }
+
+  h2.section-head {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .footer-cc-logo {
+    width: 300px;
+    height: 80px;
+  }
+
+  .hm-footer-info,
+  .abt-footer-info {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+}
