@@ -159,7 +159,7 @@
     background-image: url("../images/bg-mat.png");
     background-repeat: repeat;
     border: none;
-    height: 60%;
+    height: 30rem;
   }
 
   /* dynamic content */
@@ -242,6 +242,10 @@
 
   .whole-program-link-text > a:hover {
     color: #ec5242;
+  }
+
+  .featured-speakers {
+    height: 30rem;
   }
 
   .speakers-details {
@@ -510,74 +514,15 @@
     line-height: 2.5rem;
   }
 
-  footer {
-    position: relative;
-    padding: 2rem;
-    height: 10%;
-    gap: 0.5rem;
-    background: #272a31;
-  }
-
-  .footer-left {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    order: 0;
-    width: 40%;
-  }
-
-  .footer-right {
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    order: 1;
-    width: 60%;
-  }
-
   .footer-cc-logo {
-    position: relative;
-    width: 230px;
-    height: 60px;
-    margin: 0;
-    padding: 0;
+    width: 300px;
+    height: 80px;
   }
 
-  .footer-info {
-    color: #fff;
-    font-family: "Lato", sans-serif;
+  .hm-footer-info,
+  .abt-footer-info {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  @media screen and (min-width: 768px) {
-    .prog-registration-button,
-    .spkrs-list-view,
-    #mobile-menu,
-    #mobile-menu-nav-toggle,
-    #mobile-menu-nav {
-      display: none;
-    }
-  }
-}
-
-@media screen and (min-width: 912px) {
-
-  .primary-nav {
-    width: 100%;
-  }
-}
-
-@media screen and (width: 1440px) {
-  .featured-speakers {
-    height: 80rem;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-  .featured-speakers {
-    height: 70rem;
   }
 }

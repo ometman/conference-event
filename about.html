@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/stylesmin768.css" />
     <link rel="stylesheet" href="./css/styles1440.css">
+    <link rel="stylesheet" href="./css/abt-device.css">
+    <!-- <link rel="stylesheet" href="./css/small-dev.css"> -->
     <title> Creative Commons Global Summit 2023</title>
   </head>
   <body>
-    <header class="header abt-page-bg">
+    <header class="header abt-page-bg rt-height">
       <div class="top-menu blur">
         <ul class="connect">
             <li class="s-icon1"><a href="#!"><i class="fa-brands fa-facebook"></i></a></li>
@@ -22,7 +24,7 @@
        </ul>
    </div>
    <!--mobile nav-->
-   <nav class="primary-nav">
+   <nav class="primary-nav rt-height">
     <!-- logo-->
       <a href="./index.html" class="logo-container blur"> 
         <!--logo image-->
@@ -30,7 +32,7 @@
       </a> <!--logo ends-->
       <!--mobile nav - hamburger-->
       <a href="#" id="main-mobile-menu" class="hamburger-wrapper blur">
-        <img src="./images/mobile-menu.png" alt="Mobile menu icon">
+        <img class="mm-icon" src="./images/mobile-menu.png" alt="Mobile menu icon">
       </a>
       <!--mobile menu items -->
       <input type="checkbox" class="mobile-menu-nav-toggle" id="mobile-menu-nav-toggle">
@@ -56,24 +58,24 @@
       </ul>
     </nav> <!--header ends-->
       <!--headline begins-->
-      <div class="abt-headline blur">
-        <p class="headline-greeting">"Hello! Changing the world"</p>
-        <hr class="headline-hr" />
-        <h1 class="headline-title abt-h1-title">
+      <div class="abt-headline blur rt-height">
+        <!-- <p class="headline-greeting">"Hello! Changing the world"</p>--> 
+        <h1 class="headline-title abt-h1-title-center hl-order0">
           Creative Commons <br />
-          Global Summit 2013
+          Global Summit 2023
         </h1>
-        <p class="headline-intro abt-headline-intro">
+        <hr class="headline-hr hl-order1" />
+        <p class="headline-intro abt-headline-intro hl-order2">
           The Global Summit brings together the community of experts, academics,
           and activists who comprise the Creative Common affiliate network in a
           different country every two. This year, we hop to expand our
           invitation list including organizations and individuals
         </p>
 
-        <p class="headline-venue abt-headline-contact-info">
+        <p class="headline-venue abt-headline-contact-info hl-order3">
           Please contact us per Email for any further questions about CC Global
-          Summit 2015!<br/>
-          <a class="abt-contact-link" href="#">ccsummit2023@cckorea.org 
+          Summit 2023!<br/>
+          <a class="abt-contact-link" href="#">ccsummit2023@cckorea.org
             <img class="link-dxn" src="./images/link-dxn.png"> 
           </a>
         </p>
@@ -81,7 +83,7 @@
     </header>
     <!--header ends-->
     <!--about list-->
-    <section class="abt-main-section blur">
+    <section class="abt-main-section blur rt-height">
       <!--order 0-->
       <div class="abt-logo">
         <h2 class="abt-logo-heading">
@@ -106,7 +108,7 @@
     </section>
 
     <!--past conference -->
-    <section class="abt-past-confs blur">
+    <section class="abt-past-confs blur rt-height">
         <!--order 0-->
             <h2 class="abt-confs-heading">
                 See the past CC Global Summits
@@ -164,12 +166,30 @@
             </a>
             </div>
     </section>
-    <footer class="footer blur">
+        <!--partners section -->
+        <section class="abt-partners-section blur rt-height">
+          <div class="section-heading dark-bg">
+              <h2 class="section-head">
+                  Partners
+              </h2>
+              <hr class="section-heading-hr partners-head-hr" />
+          </div>
+          <div class="partner-logos">
+              <img src="./images/mozilla logo.png" alt="mozilla foundation logo" class="mozilla">
+              <img src="./images/google logo.png" alt="google logo" class="google">
+              <img src="./images/naver logo rework.jpg" alt="Naver logo" class="naver">
+              <img src="./images/daumkakao rework.png" alt="Daumkakao log" class="daumkakao">
+              <img src="./images/airbnb logo.png" alt="Airbnb logo" class="airbnb">
+          </div>
+      </section>
+    <footer class="abt-footer blur rt-height">
         <div class="footer-left">
-            <img src="./images/footer-logo.png" alt="Creative commons logo" class="footer-cc-logo">
+            <img src="./images/footer-logo.png" alt="Creative commons logo" class="footer-cc-logo ft-logo-000">
+            <img src="./images/footer-logo-white-bg.png" alt="Creative commons logo" class="footer-cc-logo ft-logo-fff">
+
         </div>
         <div class="footer-right">
-            <p class="footer-info">
+            <p class="abt-footer-info">
                 2023 Creative Common Korea<br>
                 Some Rights Reserved
             </p>

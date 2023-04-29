@@ -1,0 +1,281 @@
+/* setting width for element visibility */
+
+@media screen and (min-width: 768px) {
+  .speakers-list-section,
+  .prog-registration-button,
+  .break-intro,
+  #main-mobile-menu,
+  #mobile-menu-nav-toggle,
+  #mobile-menu-nav,
+  .ft-logo-000 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .prog-registration-button,
+  .spkrs-list-view,
+  #mobile-menu,
+  #mobile-menu-nav-toggle,
+  #mobile-menu-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .top-menu,
+  .desk-menu,
+  .whole-program-link,
+  .headline-hr,
+  .logo-container,
+  .break-intro,
+  .ft-logo-fff {
+    display: none;
+  }
+}
+
+/* defining min and target device width break points */
+
+@media screen and (min-width: 375px) {
+  .header {
+    height: 100vh;
+  }
+}
+
+@media screen and (width: 820px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 57vh;
+  }
+
+  .featured-speakers {
+    height: 45rem;
+  }
+}
+
+@media screen and (width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 70vh;
+  }
+}
+
+@media screen and (width: 412px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 70vh;
+  }
+}
+
+@media screen and (width: 414px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 68vh;
+  }
+}
+
+@media (width: 390px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 73vh;
+  }
+}
+
+@media (width: 393px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 73vh;
+  }
+}
+
+@media (width: 912px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 51vh;
+  }
+}
+
+@media (width: 540px) {
+  body {
+    height: 100vh;
+  }
+
+  .header {
+    height: 89vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-speakers {
+    height: 41rem;
+  }
+
+  .header {
+    height: 70vh;
+  }
+
+  .headline {
+    top: 10rem;
+  }
+
+  .headline-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  .section-heading {
+    margin: 1rem auto;
+  }
+
+  .prog-icon {
+    height: 85%;
+    width: 85%;
+  }
+
+  .hm-footer-info,
+  .abt-footer-info {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .featured-speakers {
+    height: 60rem;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .primary-nav {
+    width: 100%;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .featured-speakers {
+    height: 80rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .featured-speakers {
+    height: 55rem;
+  }
+
+  .header {
+    height: 60vh;
+  }
+
+  .hm-footer,
+  .abt-footer {
+    position: relative;
+    padding: 1rem;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    height: 100vh;
+  }
+
+  .featured-speakers {
+    height: 37rem;
+  }
+
+  .header {
+    height: 100vh;
+  }
+
+  .hm-footer,
+  .abt-footer {
+    position: relative;
+    padding: 1rem;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (width: 280px) {
+  img.mm-icon {
+    width: 80%;
+    height: auto;
+  }
+
+  .headline-title {
+    font-size: 1.5rem;
+  }
+
+  .headline-intro,
+  .abt-headline-intro {
+    width: 88%;
+  }
+
+  .abt-logo-info,
+  .abt-confs-info {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    position: relative;
+    width: 95%;
+    padding: 0;
+    color: #272a31;
+  }
+
+  .footer-cc-logo {
+    position: relative;
+    width: 100px;
+    height: auto;
+  }
+
+  .abt-footer-info {
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (width: 360px) {
+  body {
+    width: auto;
+    height: 100vh;
+  }
+
+  .header {
+    height: 77vh;
+  }
+}

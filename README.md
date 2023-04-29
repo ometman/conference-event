@@ -93,7 +93,7 @@ Based on Cindy Behance's design, coding work was done in html, css and javascrip
 
 **Brief presentation video**:
 You can see a brief presentation on the project at the link below:
-<a href="https://www.loom.com/share/498b472c81ee4df097dfd2c32f1fe221">Presentation</a>
+<a href="https://www.loom.com/share/50bc221b44d9462f9e6f992c98501955">Presentation</a>
 
 **Live demo**: 
 The project is deployed on github pages.
