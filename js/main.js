@@ -68,7 +68,6 @@ const spkrsObj = {
 
 };
 
-
 // get element and iterate over speakers object for dynamic content
 const mobSpkrs = document.querySelector('#mob-spkrs');
 const deskSpkrs = document.querySelector('#desk-spkrs');
@@ -89,7 +88,7 @@ theMobSpkrs.forEach((spkrId) => {
   const twoSpkrs = document.createElement('div');
   twoSpkrs.classList.add('speakers-details');
   twoSpkrs.classList.add('twoSpkrs');
-   twoSpkrs.innerHTML = `
+  twoSpkrs.innerHTML = `
                     <div class="spkr-img">
                         <img class="speaker-img" src="${spkrsObj[spkrId].img}" alt="${spkrsObj.spkr1.alt}">
                     </div>
@@ -106,11 +105,11 @@ theMobSpkrs.forEach((spkrId) => {
                         </p>
                     </div> 
                 </div> `;
- mobSpkrs.appendChild(twoSpkrs);
+  mobSpkrs.appendChild(twoSpkrs);
 });
 
- //  iterate for remaining speakers  
- otherMobSpkrs.forEach((spkrId) => {
+//  iterate for remaining speakers
+otherMobSpkrs.forEach((spkrId) => {
   const addSpkrs = document.createElement('div');
   addSpkrs.classList.add('speakers-details');
   addSpkrs.classList.add('addSpkrs');
@@ -133,29 +132,27 @@ theMobSpkrs.forEach((spkrId) => {
                 </div> `;
 
   // set event for showing more speakers in this loop
-  //first for showing
-   moreSpkrsBtn.addEventListener('click', (e) => {
+  // first for showing
+  moreSpkrsBtn.addEventListener('click', (e) => {
   // content position should be move - prevent default behaviour
-   e.preventDefault();
-   // append additional speaker
-   mobSpkrs.appendChild(addSpkrs);
-   // change the buttons
-     moreSpkrsBtn.style.display = 'none';
-     lessSpkrsBtn.style.display = 'flex';
-    
-   });
-    //second for hiding
-    lessSpkrsBtn.addEventListener('click', (e) => {
-      // content position should be move - prevent default behaviour
-       e.preventDefault();
-       // remove additional speaker
-       mobSpkrs.removeChild(addSpkrs);
-       // change the buttons
-         moreSpkrsBtn.style.display = 'flex';
-         lessSpkrsBtn.style.display = 'none';
-        
-       });
- });
+    e.preventDefault();
+    // append additional speaker
+    mobSpkrs.appendChild(addSpkrs);
+    // change the buttons
+    moreSpkrsBtn.style.display = 'none';
+    lessSpkrsBtn.style.display = 'flex';
+  });
+  // second for hiding
+  lessSpkrsBtn.addEventListener('click', (e) => {
+    // content position should be move - prevent default behaviour
+    e.preventDefault();
+    // remove additional speaker
+    mobSpkrs.removeChild(addSpkrs);
+    // change the buttons
+    moreSpkrsBtn.style.display = 'flex';
+    lessSpkrsBtn.style.display = 'none';
+  });
+});
 
 // display the all desktop speakers
 
@@ -179,5 +176,5 @@ getIds.forEach((spkrId) => {
                         </p>
                     </div> 
                 </div> `;
-    deskSpkrs.appendChild(theDeskSpkrs);
+  deskSpkrs.appendChild(theDeskSpkrs);
 });
