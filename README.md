@@ -206,7 +206,7 @@ Generally, credit goes host site <a href="https://unsplash.com/photos/-uHVRvDr7p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE This project is [MIT](./LICENSE) licensed.-->
+<!-- LICENSE Information-->
 
 ## 📝 License <a name="license"></a>
 

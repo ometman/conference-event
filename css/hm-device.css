@@ -4,7 +4,8 @@
   .break-intro,
   #main-mobile-menu,
   #mobile-menu-nav-toggle,
-  #mobile-menu-nav {
+  #mobile-menu-nav,
+  #mob-spkrs {
     display: none;
   }
 }
@@ -26,7 +27,8 @@
   .headline-hr,
   .logo-container,
   .break-intro,
-  .ft-logo-fff {
+  .ft-logo-fff,
+  #desk-spkrs {
     display: none;
   }
 }
