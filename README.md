@@ -90,7 +90,7 @@ You can see a brief presentation on the project at the link below:
 The project is deployed on github pages.
 You can see a live demo at the link below:
 
-<a href="https://ometman.github.io/first-capstone/">Live demo</a>
+<a href="https://ometman.github.io/conference-event/">Live demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
